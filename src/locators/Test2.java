@@ -14,5 +14,5 @@ public class Test2 {
 		driver.findElement(By.partialLinkText("password?")).sendKeys("hhj");
 
 	
-
+	}
 }
