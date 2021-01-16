@@ -1,10 +1,10 @@
-package dropdown;
+package actionsclass;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.interactions.Actions;
 
 public class Test0 {
 
@@ -12,17 +12,13 @@ public class Test0 {
 		System.setProperty("webdriver.chrome.driver", "./software/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.ebay.com/");
-		WebElement ele = driver.findElement(By.id("gh-cat"));
-        Select s=new Select(ele);
-        s.selectByIndex(2);
-        Thread.sleep(3000);
-        s.selectByValue("267");
-        Thread.sleep(3000);
-        s.selectByVisibleText("Crafts");
-        Thread.sleep(3000);
-      System.out.println(s.isMultiple());
-        
-        driver.close();
+		WebElement ele = driver.findElement(By.xpath("(//a[text()='Fashion'])[2]"));
+		Actions a = new Actions(driver);
+		a.moveToElement(ele).perform();
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//a[text()='Jewelry']")).click();
+		Thread.sleep(3000);
+		driver.close();
 	}
 
 }
