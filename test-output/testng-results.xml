@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[https://demo.actitime.com/login.do]]>
+    </line>
+    <line>
+      <![CDATA[actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[https://demo.actitime.com/login.do]]>
+    </line>
+    <line>
+      <![CDATA[actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[https://demo.actitime.com/login.do]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-01-24T12:02:56 IST" name="Suite" finished-at="2021-01-24T12:03:37 IST" duration-ms="41170">
+    <groups>
+    </groups>
+    <test started-at="2021-01-24T12:02:56 IST" name="Test1" finished-at="2021-01-24T12:03:17 IST" duration-ms="21647">
+      <class name="testNg.ParallelExecution">
+        <test-method signature="test(java.lang.String)[pri:0, instance:testNg.ParallelExecution@28975c28]" started-at="2021-01-24T12:02:56 IST" name="test" finished-at="2021-01-24T12:03:17 IST" duration-ms="20832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[https://demo.actitime.com/login.do]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:testNg.ParallelExecution@28975c28]" started-at="2021-01-24T12:03:17 IST" name="closeapp" finished-at="2021-01-24T12:03:17 IST" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- testNg.ParallelExecution -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-01-24T12:02:56 IST" name="Test3" finished-at="2021-01-24T12:03:18 IST" duration-ms="22324">
+      <class name="testNg.ParallelExecution">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:testNg.ParallelExecution@40cb8df7]" started-at="2021-01-24T12:02:56 IST" name="openapp" finished-at="2021-01-24T12:02:56 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="test(java.lang.String)[pri:0, instance:testNg.ParallelExecution@40cb8df7]" started-at="2021-01-24T12:02:56 IST" name="test" finished-at="2021-01-24T12:03:17 IST" duration-ms="21295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[https://demo.actitime.com/login.do]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:testNg.ParallelExecution@40cb8df7]" started-at="2021-01-24T12:03:17 IST" name="closeapp" finished-at="2021-01-24T12:03:18 IST" duration-ms="979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- testNg.ParallelExecution -->
+    </test> <!-- Test3 -->
+    <test started-at="2021-01-24T12:02:56 IST" name="Test2" finished-at="2021-01-24T12:03:37 IST" duration-ms="41170">
+      <class name="testNg.ParallelExecution">
+        <test-method signature="test(java.lang.String)[pri:0, instance:testNg.ParallelExecution@2beee7ff]" started-at="2021-01-24T12:02:56 IST" name="test" finished-at="2021-01-24T12:03:35 IST" duration-ms="38850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[https://demo.actitime.com/login.do]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:testNg.ParallelExecution@2beee7ff]" started-at="2021-01-24T12:03:35 IST" name="closeapp" finished-at="2021-01-24T12:03:37 IST" duration-ms="2265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- testNg.ParallelExecution -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
